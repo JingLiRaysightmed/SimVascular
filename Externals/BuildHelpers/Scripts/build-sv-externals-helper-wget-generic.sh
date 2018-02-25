@@ -9,10 +9,10 @@ if [[ $SV_SUPER_OPTIONS == *WGET_TCL* ]]; then
   rm -Rf tcltk
   mkdir -p tcltk
   pushd tcltk
-  wget $PARENT_URL/tcltk/tcl8.5.18-src.tar.gz
+#  wget $PARENT_URL/tcltk/tcl8.5.18-src.tar.gz
   wget $PARENT_URL/tcltk/tcl8.6.4-src.tar.gz
   wget $PARENT_URL/tcltk/tcllib-1.17.tar.gz
-  wget $PARENT_URL/tcltk/tk8.5.18-src.tar.gz
+#  wget $PARENT_URL/tcltk/tk8.5.18-src.tar.gz
   wget $PARENT_URL/tcltk/tk8.6.4-src.tar.gz
   wget $PARENT_URL/tcltk/tklib-0.6.tar.tgz
   popd
@@ -46,7 +46,7 @@ if [[ $SV_SUPER_OPTIONS == *WGET_FREETYPE* ]]; then
   rm -Rf freetype
   mkdir -p freetype
   pushd freetype
-  wget $PARENT_URL/freetype/freetype-2.5.5.tar.gz
+#  wget $PARENT_URL/freetype/freetype-2.5.5.tar.gz
   wget $PARENT_URL/freetype/ft263.zip
   popd
 fi
@@ -68,7 +68,7 @@ if [[ $SV_SUPER_OPTIONS == *WGET_VTK* ]]; then
   mkdir -p vtk
   pushd vtk
   wget $PARENT_URL/vtk/VTK-6.2.0.tar.gz
-  wget $PARENT_URL/vtk/VTK-6.3.0.tar.gz
+#  wget $PARENT_URL/vtk/VTK-6.3.0.tar.gz
   popd
 fi
 
